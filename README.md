@@ -58,4 +58,7 @@
   
   > kubectl get pods --all-namespaces
   
+  2. Create a domain free on https://www.freenom.com/ and ssl free on https://www.sslforfree.com
+  
+  we will have 2 results as image below:
   

@@ -99,6 +99,10 @@ download the file and store it on the master to setup Kubernetes Dashboard LOL
  
  Change type: ClusterIP to type: NodePort
  
+ show port to connect 
+ 
+ > kubectl -n kube-system get service kubernetes-dashboard
+ 
  ![image](https://user-images.githubusercontent.com/47117818/51858706-ef01ff80-2367-11e9-8b74-35583836770e.png)
  
  Create a dashboard-adminuser.yaml file and run kubectl apply -f dashboard-adminuser.yaml
@@ -109,4 +113,6 @@ Get token to login
 
 > kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')
  
+ and result will be: 
  
+![image](https://user-images.githubusercontent.com/47117818/51858901-6df73800-2368-11e9-8c70-3b2bbe234241.png)

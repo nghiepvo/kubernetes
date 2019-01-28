@@ -62,4 +62,7 @@
   
   we will have 2 results as image below:
   
-  ![Alt text](file:///C:/Users/nghiep/Documents/Lightshot/image01.png?raw=true "Title")
+![image01](https://user-images.githubusercontent.com/47117818/51857573-31760d00-2365-11e9-9ee5-0801da12fa65.png)
+
+![image](https://user-images.githubusercontent.com/47117818/51857617-4b175480-2365-11e9-8e54-11893d895b78.png)
+

@@ -81,7 +81,9 @@ download the file and store it on the master to setup Kubernetes Dashboard LOL
 
  
  and unzip the download certificate file, copy to certs folder ($HOME/certs) and rename : certificate.crt to dashboard.crt, private.key to dashboard.key ( user *mv path/unzip/certificate.crt /$HOME/certsdashboard.crt && mv path/unzip/private.key /$HOME/private.key*)
-  ![image](https://user-images.githubusercontent.com/47117818/51858180-a4cc4e80-2366-11e9-88e1-9f7e364970f6.png)
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/47117818/51858180-a4cc4e80-2366-11e9-88e1-9f7e364970f6.png)
   
  let follow the link https://github.com/kubernetes/dashboard/wiki/Installation
  
